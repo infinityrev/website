@@ -921,6 +921,54 @@ Few of my well-wishers with whom I have worked. They are my counselor and client
                                 </li>
                             </ul>
                             <div class="form-container">
+                                <form name="contact-form" id="contact-form" action="javascript:void(0);" method="post">
+                                    <div class="row">
+
+                                        <div class="col-sm-12 text-center">
+                                            <p class="successmsg">
+                                                Mail sent successfully.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-field">
+                                                <label>Your name*
+                                                    <input type="text" name="name" id="name" required="required">
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-field">
+                                                <label>Your e-mail*
+                                                    <input type="email" name="email" id="email" required="required">
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-field">
+                                                <label>Subject
+                                                    <input type="text" name="subject" id="subject">
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-field">
+                                                <label>Your Phone
+                                                    <input type="tel" name="tel" id="tel" onkeypress="return KeycheckOnlyNumeric(event);" maxlength="13" required="required">
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-field">
+                                                <label>Your Message*
+                                                    <textarea name="message" id="message" required></textarea>
+                                                </label>
+                                                <div class="text-center">
+                                                    <input type="submit" name="submit_contact" id="submit_contact" class="btn" value="Send Message">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                                 
                             </div>
                         </div>
