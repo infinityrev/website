@@ -3,7 +3,7 @@ Options -Indexes
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^prashanta.gq[nc]
-RewriteRule ^(.*)$ http://prashanta.gq/$1 [r=301,nc]
+RewriteRule ^(.*)$ https://prashanta.gq/$1 [r=301,nc]
 
 //Custom 400 errors
 ErrorDocument 400 /404/index.html
