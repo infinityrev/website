@@ -19,6 +19,21 @@
         <link href="css/style-responsive.css" rel="stylesheet">
         <!--  END CSS STYLE  -->
     </head>
+	
+<script type="text/JavaScript">
+//courtesy of prashanta.gq
+function killCopy(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=killCopy
+document.onclick=reEnable
+}
+</script>
     <body data-spy="scroll" data-target="#header-navbar" data-offset="51">
         <!-- start main-container -->
         <div id="main-container" class="fade">
